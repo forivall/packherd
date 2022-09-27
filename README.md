@@ -2,7 +2,7 @@
 
 Herds all dependencies reachable from an entry and packs them.
 
-[API Documentation](https://thlorenz.github.io/packherd/docs/index.html)
+[API Documentation](https://forivall.com/packherd/docs/index.html)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -35,7 +35,7 @@ just added here since it is another feature that requires to intercept module lo
 
 ## Creating a Bundle with Packherd
 
-- [implemented inside the packherd module](https://thlorenz.com/packherd/docs/modules/packherd.html)
+- [implemented inside the packherd module](https://forivall.com/packherd/docs/modules/packherd.html)
 
 Calling the [packherd function][packherd fn] and providing the desired [packherd opts][packherd
 opts] will return the `Buffer` of the bundle,  a `meta` [esbuild metafile][esbuild metafile], a
@@ -134,21 +134,21 @@ Please see the ongoing work inside the `feat/stubbable` branch, particularly the
 
 MIT
 
-[packherd fn]:https://thlorenz.com/packherd/docs/modules/packherd.html#packherd-1
-[packherd opts]:https://thlorenz.com/packherd/docs/modules/packherd.html#PackherdOpts
+[packherd fn]:https://forivall.com/packherd/docs/modules/packherd.html#packherd-1
+[packherd opts]:https://forivall.com/packherd/docs/modules/packherd.html#PackherdOpts
 [esbuild metafile]:https://esbuild.github.io/api/#metafile
 
-[require fn]:https://thlorenz.com/packherd/docs/modules/require.html#packherdRequire
-[require opts]:https://thlorenz.com/packherd/docs/modules/require.html#PackherdRequireOpts
-[transpile opts]:https://thlorenz.com/packherd/docs/modules/types.html#PackherdTranspileOpts
-[init transpile cache fn]:https://thlorenz.com/packherd/docs/modules/types.html#InitTranspileCache
-[transpile-ts]:https://thlorenz.com/packherd/docs/modules/transpile_ts.html
+[require fn]:https://forivall.com/packherd/docs/modules/require.html#packherdRequire
+[require opts]:https://forivall.com/packherd/docs/modules/require.html#PackherdRequireOpts
+[transpile opts]:https://forivall.com/packherd/docs/modules/types.html#PackherdTranspileOpts
+[init transpile cache fn]:https://forivall.com/packherd/docs/modules/types.html#InitTranspileCache
+[transpile-ts]:https://forivall.com/packherd/docs/modules/transpile_ts.html
 [packherd rewrite]:https://github.com/thlorenz/packherd/blob/feat/stubbable/src/transpile-ts-rewrite.ts
-[GetModuleKey]:https://thlorenz.com/packherd/docs/modules/loader.html#GetModuleKey
-[packherd module loader]:https://thlorenz.com/packherd/docs/classes/loader.PackherdModuleLoader.html
-[try load]:https://thlorenz.com/packherd/docs/classes/loader.PackherdModuleLoader.html#tryLoad
-[try resolve]:https://thlorenz.com/packherd/docs/classes/loader.PackherdModuleLoader.html#tryResolve
-[sourcemap docs]:https://thlorenz.com/packherd/docs/modules/sourcemap_support.html
+[GetModuleKey]:https://forivall.com/packherd/docs/modules/loader.html#GetModuleKey
+[packherd module loader]:https://forivall.com/packherd/docs/classes/loader.PackherdModuleLoader.html
+[try load]:https://forivall.com/packherd/docs/classes/loader.PackherdModuleLoader.html#tryLoad
+[try resolve]:https://forivall.com/packherd/docs/classes/loader.PackherdModuleLoader.html#tryResolve
+[sourcemap docs]:https://forivall.com/packherd/docs/modules/sourcemap_support.html
 
 [v8-snapshot]:https://github.com/thlorenz/v8-snapshot
 [v8-snapshot module key]:https://github.com/thlorenz/v8-snapshot/blob/master/src/loading/snapshot-require.ts#L20
